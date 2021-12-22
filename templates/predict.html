@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="#" method="post">
+    <label for="avg-income">
+        Enter Average Income:
+    </label>
+    <input type="text" name="avg-income" id="avg-income" />
+    <br/><br/>
+
+    <label for="avg-age">
+        Enter Average Age:
+    </label>
+    <input type="text" name="avg-age" id="avg-age" />
+    <br/><br/>
+
+    <label for="avg-rooms">
+        Enter Average Rooms:
+    </label>
+    <input type="text" name="avg-rooms" id="avg-rooms" />
+    <br/><br/>
+
+    <label for="avg-bedrooms">
+        Enter Average Bedrooms:
+    </label>
+    <input type="text" name="avg-bedrooms" id="avg-bedrooms" />
+    <br/><br/>
+
+    <label for="avg-population">
+        Enter Average Population:
+    </label>
+    <input type="text" name="avg-population" id="avg-population" />
+    <br/><br/>
+
+    <input type="submit" value="Predict the price!!!" />
+
+
+</form>
+<h1 color="white">{{price}}</h1>
+
+<h1 color="white">{{accuracy}}</h1>
+
+{% endblock content %}

@@ -1,0 +1,6 @@
+1.data collection
+2.prepare the data
+3.choose the model
+4.evaluation
+5.Prediction
+6.deployment
